@@ -1,5 +1,8 @@
+name: 23ds3000041@ds.study.iitm.ac.in
+on: [push] 
 jobs:
-  test:
-    steps:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
       - name: 23ds3000041@ds.study.iitm.ac.in
         run: echo "Hello, world!"
